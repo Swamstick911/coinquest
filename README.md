@@ -16,7 +16,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React** – Frontend UI
 - **TailwindCSS** – Styling
