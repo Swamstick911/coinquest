@@ -1,16 +1,47 @@
-# React + Vite
+# Coinquest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Coinquest** is a browser-based incremental/idle game built with **React** and **TailwindCSS**. Players earn coins over time, buy upgrades to increase their income, and enjoy dynamic events and achievements that make the game more interactive and engaging.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Idle Income System**: Earn coins automatically based on your upgrades and multipliers.
+- **Upgrades Shop**: Buy upgrades to increase your income per second.
+- **Random Events**: Special events like festivals, droughts, and market crashes temporarily affect your income or upgrade costs.
+- **Achievements**: Unlock milestones to get permanent buffs and visual celebrations.
+- **Dark/Light Mode**: Switch themes for an immersive experience.
+- **Coin Animations**: Coins fly to your counter when earned (optional, can be removed for performance/UI focus).
+- **Persistent Progress**: All coins, upgrades, and settings are saved in `localStorage`.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Frontend UI
+- **TailwindCSS** – Styling
+- **GSAP** – Animations (coins, confetti, achievements)
+- **LocalStorage** – Save game state
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Swamstick911/coinquest
+cd coinquest
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm start
+```
