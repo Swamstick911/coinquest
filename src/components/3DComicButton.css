@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Liga Sans";
+  src: url("https://ywerf4fo8udqtrne.public.blob.vercel-storage.com/LigaSans-Bold-fc2ZTym6FP7foHgBmaDmNPCpEYCNwp.otf");
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://ywerf4fo8udqtrne.public.blob.vercel-storage.com/Satoshi-Variable-NBxfOyXZyPII7zRzLJGOGbrn07LkfZ.ttf");
+}
+
+.button {
+  --border-color: black;
+  --button-color: white;
+  --text-color: black;
+
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-color);
+  background-color: var(--button-color);
+  border: 3px solid var(--border-color);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  outline: none;
+  font-family: "Satoshi";
+  transform: rotateX(-20deg);
+}
